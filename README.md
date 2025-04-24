@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
+# 📈 TrendPilot — Stock Market Prediction & Analysis Platform
 
-## Project info
+![Hero Image](https://lovable.dev/opengraph-image-p98pqg.png)
 
-**URL**: https://lovable.dev/projects/b42fed07-9c57-4459-b4c4-8e417ee72b40
+> ⚡ A beautiful, fully responsive web app that lets users analyze and predict stock prices using advanced machine learning algorithms. Built for tech-savvy investors, data lovers, and curious minds!
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+✅ Stunning UI/UX with Tailwind CSS & React  
+✅ Real-time & historical stock market data  
+✅ Multiple ML models: **LSTM**, **ARIMA**, **Linear Regression**, **Prophet**  
+✅ Interactive graphs, charts & model performance visualizations  
+✅ Transparent algorithm breakdowns and explanations  
+✅ User authentication (JWT / Firebase)  
+✅ Save watchlists and download prediction reports  
+✅ Fully responsive, mobile-friendly, and lightning fast!
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b42fed07-9c57-4459-b4c4-8e417ee72b40) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧠 Machine Learning Algorithms Used
 
-**Use your preferred IDE**
+| Algorithm         | Purpose                          | Tools Used          |
+|------------------|----------------------------------|---------------------|
+| LSTM              | Time-series forecasting          | TensorFlow/Keras    |
+| ARIMA             | Statistical modeling             | statsmodels         |
+| Linear Regression | Simple predictive modeling       | Scikit-learn        |
+| Prophet           | Trend/cycle-based forecasting    | Facebook Prophet    |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+📌 Each algorithm includes:
+- Visualized predictions
+- Performance metrics (RMSE, MAE, etc.)
+- Transparent, user-friendly explanations
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📸 Screenshots
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+> *(Add screenshots from your app in `/public/images` and link them here)*
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+![Dashboard Preview](./public/images/dashboard-preview.png)
+![Prediction Results](./public/images/prediction-results.png)
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🛠️ Tech Stack
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
+**Frontend**:  
+- React.js  
+- Tailwind CSS  
 - Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
+**Backend**:  
+- Node.js + Express.js  
+- MongoDB
 
-Simply open [Lovable](https://lovable.dev/projects/b42fed07-9c57-4459-b4c4-8e417ee72b40) and click on Share -> Publish.
+**ML Microservice**:  
+- Python (Flask / FastAPI)  
+- Deployed via Render or Hugging Face Spaces
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 📦 Setup Instructions
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### 🔧 Prerequisites
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- Node.js & npm
+- Python 3.8+
+- MongoDB account
+- GitHub or Vercel account (for deployment)
+
+### 💻 Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
